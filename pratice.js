@@ -12,3 +12,15 @@ function feetToMile(feet){
 }
 var firstMile = feetToMile(5080);
 console.log(firstMile);
+
+
+
+function fruitscal(mango, jack,licu){
+    var mangoCount = mango*4;
+    var jackCount = jack*4;
+    var licuCount = licu *4;
+    var total = mangoCount + jackCount + licuCount;
+    return total;
+}
+var mango = fruitscal(5) ;
+console.log(mango);
